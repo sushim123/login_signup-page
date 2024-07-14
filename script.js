@@ -75,5 +75,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 document.getElementById('loginBtn').addEventListener('click', function() {
-    window.location.href = 'https://www.facebook.com/v14.0/dialog/oauth?client_id=1004975204591399&redirect_uri=https://www.facebook.com/&scope=public_profile,pages_show_list,instagram_basic';
-});
+        window.location.href = 'https://www.facebook.com/v14.0/dialog/oauth?client_id=1004975204591399&redirect_uri=http://localhost:3000/auth/callback&scope=public_profile,pages_show_list,instagram_basic';
+    });
